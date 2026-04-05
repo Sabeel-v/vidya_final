@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import Navbar from '../components/Navbar';
 
 function About() {
   return (
@@ -8,11 +9,12 @@ function About() {
   {/* Main Container with Background */}
   {/* Page wrapper WITH background */}
   <section className="relative w-full bg-cover bg-center bg-no-repeat&#xA;         h-[70vh] sm:h-[66vh] md:h-[64vh] lg:h-[63vh] xl:h-[60vh] min-h-[520px]" style={{"backgroundImage":"url('assets/images/bgshade.png')"}}>
-    {/* Optional soft overlay */}
+        {/* Optional soft overlay */}
     <div className="absolute inset-0 bg-white/40 sm:bg-white/30 md:bg-white/20 z-0"></div>
 
     {/* All content sits above overlay */}
     <div className="relative z-10 h-full flex flex-col">
+<Navbar />
 
       {/* Header */}
       

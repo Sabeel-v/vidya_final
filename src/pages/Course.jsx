@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import Navbar from '../components/Navbar';
 
 function Course() {
   return (
@@ -11,12 +12,12 @@ function Course() {
   <section className="hidden md:block">
     {/* Page wrapper WITH background */}
     <div className="relative w-full bg-cover bg-center bg-no-repeat&#xA;             min-h-[500px] lg:min-h-[420px] h-auto py-10 lg:py-0" style={{"backgroundImage":"url('assets/images/bgshade.png')"}}>
-
       {/* Optional soft overlay */}
       <div className="absolute inset-0 bg-white/40 sm:bg-white/30 md:bg-white/20 z-0"></div>
 
       {/* All content sits above overlay */}
       <div className="relative z-10 h-full flex flex-col">
+<Navbar />
 
         {/* Header */}
         
@@ -119,6 +120,7 @@ function Course() {
 
   </section>
   <div className="block md:hidden">
+<Navbar />
 
     {/* Header */}
     

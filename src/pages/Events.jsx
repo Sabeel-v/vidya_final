@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import Navbar from '../components/Navbar';
 
 function Events() {
   return (
@@ -14,6 +15,7 @@ function Events() {
 
   {/* All content sits above overlay */}
   <div className="relative z-10 h-full flex flex-col">
+<Navbar />
     
     {/* Header */}
    {/* Header Section */}

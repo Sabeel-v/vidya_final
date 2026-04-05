@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import Navbar from '../components/Navbar';
 
 function Home() {
   return (
@@ -7,6 +8,7 @@ function Home() {
       
 {/* HERO Section Unified */}
 <section className="relative w-full bg-cover bg-center bg-no-repeat" style={{"backgroundImage":"url('assets/images/bgshade.png')"}}>
+<Navbar />
 
 
    {/* soft bottom pattern */}

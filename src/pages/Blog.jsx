@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import Navbar from '../components/Navbar';
 
 function Blog() {
   return (
@@ -14,6 +15,7 @@ function Blog() {
 
 
   <main className="w-full overflow-x-hidden">
+<Navbar />
     {/* Hero Section */}
     
 
