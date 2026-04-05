@@ -63,7 +63,7 @@ function Events() {
   <div className="max-w-[1300px] mx-auto">
 
     <h2 className="text-2xl sm:text-3xl font-semibold text-slate-800 mb-8">
-      Upcoming News &amp; Events
+      Upcoming News & Events
     </h2>
 
     {/* Responsive Grid */}
@@ -71,7 +71,16 @@ function Events() {
 
       {/* CARD 1 */}
       <article className="bg-[#f2f7f7] rounded-2xl p-6 sm:p-8 shadow-md flex flex-col gap-6 transition-transform hover:-translate-y-1 hover:shadow-lg">
-        
+        <header className="flex items-center gap-5">
+          <div className="flex items-center gap-4">
+            <div className="text-[50px] sm:text-[62px] font-bold text-[#0D5183] leading-none">20</div>
+            <div className="text-sm text-slate-600 leading-tight">
+              <div>August</div><div>2025</div>
+            </div>
+          </div>
+          <span className="hidden sm:block w-px h-10 bg-slate-300 mx-4"></span>
+          <div className="text-base text-slate-700 whitespace-nowrap ml-auto">Wednesday</div>
+        </header>
         <hr className="border-slate-300" />
         <div className="flex flex-col gap-4">
           <span className="inline-block bg-[#F37666] text-white text-sm rounded px-3 py-1 font-medium w-fit">Event</span>
@@ -82,7 +91,16 @@ function Events() {
 
       {/* CARD 2 */}
       <article className="bg-[#f2f7f7] rounded-2xl p-6 sm:p-8 shadow-md flex flex-col gap-6 transition-transform hover:-translate-y-1 hover:shadow-lg">
-        
+        <header className="flex items-center gap-5">
+          <div className="flex items-center gap-4">
+            <div className="text-[50px] sm:text-[62px] font-bold text-[#0D5183] leading-none">12</div>
+            <div className="text-sm text-slate-600 leading-tight">
+              <div>July</div><div>2025</div>
+            </div>
+          </div>
+          <span className="hidden sm:block w-px h-10 bg-slate-300 mx-4"></span>
+          <div className="text-base text-slate-700 whitespace-nowrap ml-auto">Friday</div>
+        </header>
         <hr className="border-slate-300" />
         <div className="flex flex-col gap-4">
           <span className="inline-block bg-[#F37666] text-white text-sm rounded px-3 py-1 font-medium w-fit">Workshop</span>
@@ -93,7 +111,16 @@ function Events() {
 
       {/* CARD 3 */}
       <article className="bg-[#f2f7f7] rounded-2xl p-6 sm:p-8 shadow-md flex flex-col gap-6 transition-transform hover:-translate-y-1 hover:shadow-lg">
-        
+        <header className="flex items-center gap-5">
+          <div className="flex items-center gap-4">
+            <div className="text-[50px] sm:text-[62px] font-bold text-[#0D5183] leading-none">08</div>
+            <div className="text-sm text-slate-600 leading-tight">
+              <div>June</div><div>2025</div>
+            </div>
+          </div>
+          <span className="hidden sm:block w-px h-10 bg-slate-300 mx-4"></span>
+          <div className="text-base text-slate-700 whitespace-nowrap ml-auto">Monday</div>
+        </header>
         <hr className="border-slate-300" />
         <div className="flex flex-col gap-4">
           <span className="inline-block bg-[#F37666] text-white text-sm rounded px-3 py-1 font-medium w-fit">Seminar</span>
@@ -104,7 +131,16 @@ function Events() {
 
       {/* CARD 4 */}
       <article className="bg-[#f2f7f7] rounded-2xl p-6 sm:p-8 shadow-md flex flex-col gap-6 transition-transform hover:-translate-y-1 hover:shadow-lg">
-        
+        <header className="flex items-center gap-5">
+          <div className="flex items-center gap-4">
+            <div className="text-[50px] sm:text-[62px] font-bold text-[#0D5183] leading-none">02</div>
+            <div className="text-sm text-slate-600 leading-tight">
+              <div>May</div><div>2025</div>
+            </div>
+          </div>
+          <span className="hidden sm:block w-px h-10 bg-slate-300 mx-4"></span>
+          <div className="text-base text-slate-700 whitespace-nowrap ml-auto">Thursday</div>
+        </header>
         <hr className="border-slate-300" />
         <div className="flex flex-col gap-4">
           <span className="inline-block bg-[#F37666] text-white text-sm rounded px-3 py-1 font-medium w-fit">Competition</span>
@@ -115,7 +151,16 @@ function Events() {
 
       {/* CARD 5 */}
       <article className="bg-[#f2f7f7] rounded-2xl p-6 sm:p-8 shadow-md flex flex-col gap-6 transition-transform hover:-translate-y-1 hover:shadow-lg">
-        
+        <header className="flex items-center gap-5">
+          <div className="flex items-center gap-4">
+            <div className="text-[50px] sm:text-[62px] font-bold text-[#0D5183] leading-none">15</div>
+            <div className="text-sm text-slate-600 leading-tight">
+              <div>April</div><div>2025</div>
+            </div>
+          </div>
+          <span className="hidden sm:block w-px h-10 bg-slate-300 mx-4"></span>
+          <div className="text-base text-slate-700 whitespace-nowrap ml-auto">Tuesday</div>
+        </header>
         <hr className="border-slate-300" />
         <div className="flex flex-col gap-4">
           <span className="inline-block bg-[#F37666] text-white text-sm rounded px-3 py-1 font-medium w-fit">Program</span>
@@ -126,7 +171,16 @@ function Events() {
 
       {/* CARD 6 */}
       <article className="bg-[#f2f7f7] rounded-2xl p-6 sm:p-8 shadow-md flex flex-col gap-6 transition-transform hover:-translate-y-1 hover:shadow-lg">
-        
+        <header className="flex items-center gap-5">
+          <div className="flex items-center gap-4">
+            <div className="text-[50px] sm:text-[62px] font-bold text-[#0D5183] leading-none">10</div>
+            <div className="text-sm text-slate-600 leading-tight">
+              <div>March</div><div>2025</div>
+            </div>
+          </div>
+          <span className="hidden sm:block w-px h-10 bg-slate-300 mx-4"></span>
+          <div className="text-base text-slate-700 whitespace-nowrap ml-auto">Monday</div>
+        </header>
         <hr className="border-slate-300" />
         <div className="flex flex-col gap-4">
           <span className="inline-block bg-[#F37666] text-white text-sm rounded px-3 py-1 font-medium w-fit">Meetup</span>
@@ -157,7 +211,16 @@ function Events() {
 
       {/* CARD 1 */}
       <article className="bg-white rounded-2xl p-6 sm:p-8 shadow-md flex flex-col gap-6 transition-transform hover:-translate-y-1 hover:shadow-lg">
-        
+        <header className="flex items-center gap-5">
+          <div className="flex items-center gap-4">
+            <div className="text-[50px] sm:text-[62px] font-bold text-[#0D5183] leading-none">20</div>
+            <div className="text-sm text-slate-600 leading-tight">
+              <div>August</div><div>2025</div>
+            </div>
+          </div>
+          <span className="hidden sm:block w-px h-10 bg-slate-300 mx-4"></span>
+          <div className="text-base text-slate-700 whitespace-nowrap ml-auto">Wednesday</div>
+        </header>
         <hr className="border-slate-300" />
         <div className="flex flex-col gap-4">
           <span className="inline-block bg-[#F37666] text-white text-sm rounded px-3 py-1 font-medium w-fit">Event</span>
@@ -168,7 +231,16 @@ function Events() {
 
       {/* CARD 2 */}
       <article className="bg-white rounded-2xl p-6 sm:p-8 shadow-md flex flex-col gap-6 transition-transform hover:-translate-y-1 hover:shadow-lg">
-        
+        <header className="flex items-center gap-5">
+          <div className="flex items-center gap-4">
+            <div className="text-[50px] sm:text-[62px] font-bold text-[#0D5183] leading-none">12</div>
+            <div className="text-sm text-slate-600 leading-tight">
+              <div>July</div><div>2025</div>
+            </div>
+          </div>
+          <span className="hidden sm:block w-px h-10 bg-slate-300 mx-4"></span>
+          <div className="text-base text-slate-700 whitespace-nowrap ml-auto">Friday</div>
+        </header>
         <hr className="border-slate-300" />
         <div className="flex flex-col gap-4">
           <span className="inline-block bg-[#F37666] text-white text-sm rounded px-3 py-1 font-medium w-fit">Workshop</span>
@@ -179,7 +251,16 @@ function Events() {
 
       {/* CARD 3 */}
       <article className="bg-white rounded-2xl p-6 sm:p-8 shadow-md flex flex-col gap-6 transition-transform hover:-translate-y-1 hover:shadow-lg">
-        
+        <header className="flex items-center gap-5">
+          <div className="flex items-center gap-4">
+            <div className="text-[50px] sm:text-[62px] font-bold text-[#0D5183] leading-none">08</div>
+            <div className="text-sm text-slate-600 leading-tight">
+              <div>June</div><div>2025</div>
+            </div>
+          </div>
+          <span className="hidden sm:block w-px h-10 bg-slate-300 mx-4"></span>
+          <div className="text-base text-slate-700 whitespace-nowrap ml-auto">Monday</div>
+        </header>
         <hr className="border-slate-300" />
         <div className="flex flex-col gap-4">
           <span className="inline-block bg-[#F37666] text-white text-sm rounded px-3 py-1 font-medium w-fit">Seminar</span>
@@ -190,7 +271,16 @@ function Events() {
 
       {/* CARD 4 */}
       <article className="bg-white rounded-2xl p-6 sm:p-8 shadow-md flex flex-col gap-6 transition-transform hover:-translate-y-1 hover:shadow-lg">
-        
+        <header className="flex items-center gap-5">
+          <div className="flex items-center gap-4">
+            <div className="text-[50px] sm:text-[62px] font-bold text-[#0D5183] leading-none">02</div>
+            <div className="text-sm text-slate-600 leading-tight">
+              <div>May</div><div>2025</div>
+            </div>
+          </div>
+          <span className="hidden sm:block w-px h-10 bg-slate-300 mx-4"></span>
+          <div className="text-base text-slate-700 whitespace-nowrap ml-auto">Thursday</div>
+        </header>
         <hr className="border-slate-300" />
         <div className="flex flex-col gap-4">
           <span className="inline-block bg-[#F37666] text-white text-sm rounded px-3 py-1 font-medium w-fit">Competition</span>
@@ -201,7 +291,16 @@ function Events() {
 
       {/* CARD 5 */}
       <article className="bg-white rounded-2xl p-6 sm:p-8 shadow-md flex flex-col gap-6 transition-transform hover:-translate-y-1 hover:shadow-lg">
-        
+        <header className="flex items-center gap-5">
+          <div className="flex items-center gap-4">
+            <div className="text-[50px] sm:text-[62px] font-bold text-[#0D5183] leading-none">15</div>
+            <div className="text-sm text-slate-600 leading-tight">
+              <div>April</div><div>2025</div>
+            </div>
+          </div>
+          <span className="hidden sm:block w-px h-10 bg-slate-300 mx-4"></span>
+          <div className="text-base text-slate-700 whitespace-nowrap ml-auto">Tuesday</div>
+        </header>
         <hr className="border-slate-300" />
         <div className="flex flex-col gap-4">
           <span className="inline-block bg-[#F37666] text-white text-sm rounded px-3 py-1 font-medium w-fit">Program</span>
@@ -212,7 +311,16 @@ function Events() {
 
       {/* CARD 6 */}
       <article className="bg-white rounded-2xl p-6 sm:p-8 shadow-md flex flex-col gap-6 transition-transform hover:-translate-y-1 hover:shadow-lg">
-        
+        <header className="flex items-center gap-5">
+          <div className="flex items-center gap-4">
+            <div className="text-[50px] sm:text-[62px] font-bold text-[#0D5183] leading-none">10</div>
+            <div className="text-sm text-slate-600 leading-tight">
+              <div>March</div><div>2025</div>
+            </div>
+          </div>
+          <span className="hidden sm:block w-px h-10 bg-slate-300 mx-4"></span>
+          <div className="text-base text-slate-700 whitespace-nowrap ml-auto">Monday</div>
+        </header>
         <hr className="border-slate-300" />
         <div className="flex flex-col gap-4">
           <span className="inline-block bg-[#F37666] text-white text-sm rounded px-3 py-1 font-medium w-fit">Meetup</span>
