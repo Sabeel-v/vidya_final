@@ -339,7 +339,7 @@ function Events() {
 
   
  {/* Get in Touch Section */}
-<section className="relative w-full py-20 " id="contactform">
+<section className="relative w-full py-20 hidden sm:block" id="contactform2">
   {/* Background Split */}
   <div className="absolute inset-0">
     <div className="h-1/2 bg-white"></div>
@@ -377,6 +377,92 @@ function Events() {
       </form>
     </div>
   </div>
+</section>
+
+{/* mobile version get in touch */}
+
+<section>
+  {/* Contact Section */}
+  <div className="relative grid grid-rows-2 w-full h-[600px] sm:h-[550px] md:h-[500px] overflow-hidden block sm:hidden">
+
+    {/* Top (Light Gray) */}
+    <div className="bg-[#f2f7f7] flex items-center justify-center text-black text-sm md:text-base" id="contactform">
+      {/* Optional: You can remove this placeholder text */}
+    </div>
+
+    {/* Bottom (Dark Blue) */}
+    <div className="bg-[#0E5284] flex items-center justify-center text-white text-sm md:text-base">
+    </div>
+
+    {/* Middle Contact Box (Desktop) */}
+    <div className="hidden md:flex absolute top-[55%] left-1/2 -translate-x-1/2 -translate-y-1/2 &#xA;                w-full max-w-6xl justify-center px-6 lg:px-12">
+      <div className="bg-[#f37666] rounded-2xl flex flex-col md:flex-row items-center &#xA;                  gap-6 md:gap-10 p-6 lg:p-10 shadow-lg w-full">
+
+        {/* Image */}
+        <img alt="Smiling woman with headset" className="w-32 md:w-44 lg:w-60 rounded-lg object-cover flex-shrink-0" src="https://storage.googleapis.com/a1aa/image/f9fbf604-eb92-41a6-e03c-e73ca99f2516.jpg" />
+
+        {/* Form */}
+        <form aria-label="Get in touch form" className="flex flex-col md:flex-row md:gap-6 text-white w-full">
+
+          {/* Left Inputs */}
+          <div className="flex flex-col gap-3 w-full md:w-72">
+            <h2 className="font-semibold text-base mb-1">Get in touch</h2>
+            <input className="bg-[#f26a5e] border border-[#f9a59a] rounded-md px-3 py-2 &#xA;                          text-sm placeholder-[#f9a59a] focus:outline-none" placeholder="Name" type="text" />
+            <input className="bg-[#f26a5e] border border-[#f9a59a] rounded-md px-3 py-2 &#xA;                          text-sm placeholder-[#f9a59a] focus:outline-none" placeholder="Email" type="email" />
+            <input className="bg-[#f26a5e] border border-[#f9a59a] rounded-md px-3 py-2 &#xA;                          text-sm placeholder-[#f9a59a] focus:outline-none" placeholder="Phone" type="tel" />
+            <button className="bg-[#0a4a85] text-white text-sm rounded-md py-2 mt-1" type="submit">
+              Submit
+            </button>
+          </div>
+
+          {/* Right Textarea */}
+          <textarea className="bg-[#f26a5e] border border-[#f9a59a] rounded-md px-3 py-2 &#xA;                            text-sm placeholder-[#f9a59a] w-full md:w-72 resize-none &#xA;                            mt-4 md:mt-0" placeholder="Message" rows="6"></textarea>
+        </form>
+      </div>
+    </div>
+
+    {/* Middle Contact Box (Mobile) */}
+    <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 &#xA;                w-full px-4 sm:px-6 flex justify-center md:hidden">
+      <div className="max-w-md w-full bg-[#f37666] rounded-2xl flex flex-col &#xA;                  items-center gap-4 p-4 sm:p-6 shadow-lg">
+
+        {/* Image */}
+        <img alt="Smiling woman with headset" className="w-24 sm:w-32 rounded-lg object-cover flex-shrink-0" src="https://storage.googleapis.com/a1aa/image/f9fbf604-eb92-41a6-e03c-e73ca99f2516.jpg" />
+
+        {/* Form */}
+        <form aria-label="Get in touch form" className="flex flex-col gap-3 text-white w-full">
+          <h2 className="font-semibold text-base mb-1">Get in touch</h2>
+          <input className="bg-[#f26a5e] border border-[#f9a59a] rounded-md px-3 py-2 &#xA;                        text-sm placeholder-[#f9a59a] focus:outline-none" placeholder="Name" type="text" />
+          <input className="bg-[#f26a5e] border border-[#f9a59a] rounded-md px-3 py-2 &#xA;                        text-sm placeholder-[#f9a59a] focus:outline-none" placeholder="Email" type="email" />
+          <input className="bg-[#f26a5e] border border-[#f9a59a] rounded-md px-3 py-2 &#xA;                        text-sm placeholder-[#f9a59a] focus:outline-none" placeholder="Phone" type="tel" />
+          <textarea className="bg-[#f26a5e] border border-[#f9a59a] rounded-md px-3 py-2 &#xA;                            text-sm placeholder-[#f9a59a] w-full resize-none" placeholder="Message" rows="4"></textarea>
+          <button className="bg-[#0a4a85] text-white text-sm rounded-md py-2 mt-1" type="submit">
+            Submit
+          </button>
+        </form>
+      </div>
+    </div>
+
+  </div>
+
+
+{/* finished */}
+
+
+
+
+
+  
+
+  {/* Footer */}
+  
+
+  
+
+  
+
+
+
+
 </section>
 
   
