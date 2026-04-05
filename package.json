@@ -6,18 +6,27 @@
   "scripts": {
     "test": "echo 'Error: no test specified' && exit 1",
     "build:css": "npx @dhiwise/component-tagger && npx tailwindcss -i ./css/tailwind.css -o ./css/main.css --minify",
-    "watch:css": "npx @dhiwise/component-tagger && npx tailwindcss -i ./css/tailwind.css -o ./css/main.css --minify --watch"
+    "watch:css": "npx @dhiwise/component-tagger && npx tailwindcss -i ./css/tailwind.css -o ./css/main.css --minify --watch",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@vitejs/plugin-react": "^6.0.1",
     "autoprefixer": "^10.4.22",
+    "jsdom": "^29.0.1",
     "postcss": "^8.5.6",
-    "tailwindcss": "^3.4.18"
+    "tailwindcss": "^3.4.18",
+    "vite": "^8.0.3"
   },
   "dependencies": {
     "@dhiwise/component-tagger": "^1.0.9",
-    "@tailwindcss/forms": "^0.5.7"
+    "@tailwindcss/forms": "^0.5.7",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4",
+    "react-router-dom": "^7.14.0"
   }
 }

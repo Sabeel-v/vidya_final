@@ -1,0 +1,9 @@
+[36mvite v8.0.3 [32mbuilding client environment for production...[36m[39m
+[2Ktransforming...✓ 32 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                   0.66 kB │ gzip:  0.42 kB
+dist/assets/index-DTvsPMBO.css   51.03 kB │ gzip:  9.71 kB
+dist/assets/index-B9pa5kKA.js   371.25 kB │ gzip: 90.12 kB
+
+[32m✓ built in 399ms[39m
