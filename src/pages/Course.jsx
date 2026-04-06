@@ -73,7 +73,7 @@ function Course() {
         {/* Enquire Button */}
         <button className="bg-[#1b9fa7] rounded-[30px] px-8 py-3 flex items-center gap-2 hover:bg-[#17898f]&#xA;             transition-colors shadow-sm">
           <span className="text-[18px] font-semibold text-white leading-[24px]">Enquire now</span>
-          <div className="w-[34px] h-[34px] bg-cover bg-center rounded-full flex items-center justify-center" style={{"backgroundImage":"url('assets/images/img_ellipse_3_copy_7.svg')"}}>
+          <div className="w-[34px] h-[34px] bg-white rounded-full flex items-center justify-center">
             <img src="assets/images/img_vector_smart_object_12x16.png" className="w-[14px] h-[10px]" alt="Arrow" />
           </div>
         </button>
@@ -297,7 +297,7 @@ function Course() {
       {/* Enquire Button */}
       <button className="bg-[#1b9fa7] rounded-[30px] px-8 py-3 flex items-center gap-2 hover:bg-[#17898f]&#xA;             transition-colors shadow-sm">
         <span className="text-[18px] font-semibold text-white leading-[24px]">Enquire now</span>
-        <div className="w-[34px] h-[34px] bg-cover bg-center rounded-full flex items-center justify-center" style={{"backgroundImage":"url('assets/images/img_ellipse_3_copy_7.svg')"}}>
+        <div className="w-[34px] h-[34px] bg-white rounded-full flex items-center justify-center">
           <img src="assets/images/img_vector_smart_object_12x16.png" className="w-[14px] h-[10px]" alt="Arrow" />
         </div>
       </button>

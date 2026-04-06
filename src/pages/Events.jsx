@@ -199,7 +199,7 @@ function Events() {
 
 {/*2nd orginal  */}
 
-<section className="w-full px-4 sm:px-6 lg:px-10 py-12">
+<section className="w-full px-4 sm:px-6 lg:px-10 py-12 bg-[#f2f7f7]">
   <div className="max-w-[1300px] mx-auto">
 
     <h2 className="text-2xl sm:text-3xl font-semibold text-slate-800 mb-8">
