@@ -563,26 +563,27 @@ Empowering Students<br className="hidden sm:block" />Through Quality Education  
         {/* Content Grid */}
         <div className="grid grid-cols-[1.5fr_1fr] gap-6 h-full">
           {/* Left Column (Featured Blog) */}
-          <div className="flex flex-col">
-            <img src="assets/images/homeblog.png" alt="Students" className="w-full h-[220px] object-cover  mb-4" />
+          <div className="flex flex-col h-full">
+            <img src="assets/images/homeblog.png" alt="Students" className="w-full h-[220px] object-cover rounded-lg mb-4" />
 
             <h4 className="text-[#0E5284] font-bold text-[20px] mb-2 leading-snug">
-How to Choose the Right Course After Higher Secondary            </h4>
+              How to Choose the Right Course After Higher Secondary
+            </h4>
             <p className="text-[#F37666] text-[15px] mb-4 font-medium">
               Friday, 1 August 2025
             </p>
 
-            <button className="flex items-center gap-2 text-[#0E5284] font-medium hover:gap-3 transition-all duration-300 mt-auto">
+            <button className="flex items-center gap-2 text-[#0E5284] font-medium hover:gap-3 transition-all duration-300">
               Read more
               <img src="assets/images/img_vector_smart_object_7.png" className="w-[10px] h-[10px]" alt="Arrow" />
             </button>
           </div>
 
           {/* Right Column (Other Blogs) */}
-          <div className="flex flex-col justify-between">
-            {/* Blog Item */}
-            <div className="flex gap-3">
-              <img src="assets/images/hba.png" alt="Blog Image" className="w-[110px] h-[80px]  object-cover" />
+          <div className="flex flex-col justify-start gap-6">
+            {/* Blog Item 1 */}
+            <div className="flex gap-3 items-center">
+              <img src="assets/images/hba.png" alt="Blog Image" className="w-[110px] h-[80px] object-cover rounded-lg flex-shrink-0" />
               <div>
                 <h5 className="text-[#0E5284] font-bold text-[15px] leading-snug mb-1">
                   Top Career Opportunities in Allied Health Science
@@ -593,11 +594,12 @@ How to Choose the Right Course After Higher Secondary            </h4>
               </div>
             </div>
 
-            <div className="flex gap-3">
-              <img src="assets/images/hbb.png" alt="Blog Image" className="w-[110px] h-[80px] r object-cover" />
+            {/* Blog Item 2 */}
+            <div className="flex gap-3 items-center">
+              <img src="assets/images/hbb.png" alt="Blog Image" className="w-[110px] h-[80px] object-cover rounded-lg flex-shrink-0" />
               <div>
                 <h5 className="text-[#0E5284] font-bold text-[15px] leading-snug mb-1">
-                 Why Business and Commerce Courses Are in High Demand
+                  Why Business and Commerce Courses Are in High Demand
                 </h5>
                 <p className="text-[#F37666] text-[13px] font-medium">
                   Friday, 1 August 2025
@@ -605,11 +607,12 @@ How to Choose the Right Course After Higher Secondary            </h4>
               </div>
             </div>
 
-            <div className="flex gap-3">
-              <img src="assets/images/hbc.png" alt="Blog Image" className="w-[110px] h-[80px]  object-cover" />
+            {/* Blog Item 3 */}
+            <div className="flex gap-3 items-center">
+              <img src="assets/images/hbc.png" alt="Blog Image" className="w-[110px] h-[80px] object-cover rounded-lg flex-shrink-0" />
               <div>
                 <h5 className="text-[#0E5284] font-bold text-[15px] leading-snug mb-1">
-                   Benefits of Learning Foreign Languages for Your Career
+                  Benefits of Learning Foreign Languages for Your Career
                 </h5>
                 <p className="text-[#F37666] text-[13px] font-medium">
                   Friday, 1 August 2025
