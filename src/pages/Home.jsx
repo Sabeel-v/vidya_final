@@ -109,7 +109,7 @@ Vidya Academy offers industry-oriented courses, expert faculty, and modern learn
             <img src="assets/images/img_vector_smart_object_52x66.png" className="w-[52px] h-auto mb-6" alt="Management" />
             <h3 className="text-[22px] sm:text-[26px] lg:text-[28px] font-bold">Management</h3>
           </div>
-          <div className="absolute bottom-5 right-5 w-[24px] h-[24px] bg-white rounded-full flex items-center justify-center">
+          <div className="absolute bottom-5 right-5 w-[24px] h-[24px] border-2 border-white rounded-full flex items-center justify-center">
             <img src="assets/images/whitearrow.png" alt="Arrow" className="w-[14px] h-[14px] object-contain" />
           </div>
         </div>
@@ -119,7 +119,7 @@ Vidya Academy offers industry-oriented courses, expert faculty, and modern learn
           <div className="absolute inset-0 bg-[#0E5284]/30 flex flex-col justify-end p-6 lg:p-8 text-white">
             <img src="assets/images/comim.png" className="w-[50px] h-auto mb-4" alt="Commerce Icon" />
             <h3 className="text-[22px] sm:text-[26px] lg:text-[28px] font-bold">Commerce</h3>
-            <div className="absolute bottom-5 right-5 w-[24px] h-[24px] bg-white rounded-full flex items-center justify-center">
+            <div className="absolute bottom-5 right-5 w-[24px] h-[24px] border-2 border-white rounded-full flex items-center justify-center">
               <img src="assets/images/whitearrow.png" alt="Arrow" className="w-[14px] h-[14px] object-contain" />
             </div>
           </div>
@@ -134,7 +134,7 @@ Vidya Academy offers industry-oriented courses, expert faculty, and modern learn
             <img src="assets/images/img_vector_smart_object_64x64.png" className="w-[52px] h-auto mb-6" alt="Health Icon" />
             <h3 className="text-[22px] sm:text-[26px] lg:text-[28px] font-bold leading-snug">Allied Health<br />Science</h3>
           </div>
-          <div className="absolute bottom-5 right-5 w-[24px] h-[24px] bg-white rounded-full flex items-center justify-center">
+          <div className="absolute bottom-5 right-5 w-[24px] h-[24px] border-2 border-white rounded-full flex items-center justify-center">
             <img src="assets/images/whitearrow.png" alt="Arrow" className="w-[14px] h-[14px] object-contain" />
           </div>
         </div>
@@ -145,7 +145,7 @@ Vidya Academy offers industry-oriented courses, expert faculty, and modern learn
             <img src="assets/images/booka.png" className="w-[50px] h-auto mb-6" alt="Language" />
             <h3 className="text-[22px] sm:text-[26px] lg:text-[28px] font-bold leading-snug">Language<br />Learning</h3>
           </div>
-          <div className="absolute bottom-5 right-5 w-[24px] h-[24px] bg-white rounded-full flex items-center justify-center">
+          <div className="absolute bottom-5 right-5 w-[24px] h-[24px] border-2 border-white rounded-full flex items-center justify-center">
             <img src="assets/images/whitearrow.png" alt="Arrow" className="w-[14px] h-[14px] object-contain" />
           </div>
         </div>
